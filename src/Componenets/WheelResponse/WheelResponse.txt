@@ -1,0 +1,39 @@
+// import react, { useState } from "react";
+
+// // File imports
+// import "../WheelResponse/WheelResponse.css";
+
+// const WheelResponse = (props) => {
+
+//   const [wheelValues, setWheelValues] = useState([
+//     {wheelValue: ""},
+//     {wheelValue: ""}
+//   ]);
+
+//   const handleChangeInput = (index, event) => {
+//     // gets locations state
+//     const locationValue = [...props.locations];
+//     // setting vvvv = to what gets typed in input field "value={input.location}"
+//     locationValue[index][event.target.name] = event.target.value;
+
+//     setWheelValues(locationValue);
+//   }
+  
+  // return(
+  //   <div className="wheelContainer">
+  //     <h3 className="welcomeScript">You're Eating At: </h3>
+  //     <ul className="circle">
+  //       { props.locations.map((input, index) => (
+  //         <li>
+  //           <div className="wheelValue" contentInput="true" >
+  //             {wheelValues}
+  //           </div>
+  //         </li>
+  //       )) }
+  //     </ul>
+  //     <button className="submitBtn" type="submit">Click To Retry</button>
+  //   </div>
+//   );
+// }
+
+// export default WheelResponse;
